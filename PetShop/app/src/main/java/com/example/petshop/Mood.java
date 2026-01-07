@@ -2,7 +2,7 @@ package com.example.petshop;
 import java.util.Date;
 
 public abstract class Mood {
-    protected Date date;
+    private Date date;
 
     public Mood() {
         date = new Date();
